@@ -44,5 +44,5 @@ for i, url in enumerate(urls):
         sleep(10)
         print(d)
         data.append(d)
-    with open('content/allsides' + str(i) + '.json', 'w') as f:
+    with open('content/json/allsides' + str(i) + '.json', 'w') as f:
         json.dump(data, f)
